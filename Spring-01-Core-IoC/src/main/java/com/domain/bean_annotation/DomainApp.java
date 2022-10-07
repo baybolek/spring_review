@@ -20,6 +20,13 @@ public class DomainApp {
 
         System.out.println(number);
 
+//        PartTimeMentor pt=container.getBean("p1",PartTimeMentor.class);
+        PartTimeMentor pt=container.getBean(PartTimeMentor.class);
+
+        pt.createAccount();
+
+
+
 
 
     }
